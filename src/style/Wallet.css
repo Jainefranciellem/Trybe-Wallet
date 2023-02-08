@@ -1,0 +1,35 @@
+.mainWallet {
+  display: flex;
+  background: url(http://localhost:3000/static/media/foto%20fundo.2d61b69….png);
+  background-color: rgb(8, 247, 139);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.containerBranco {
+  width: 1237px;
+  height: 385px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: -4px 9px 13px rgb(5 18 54 / 40%);
+  border-radius: 10px;
+}
+
+.containerAzul {
+  width: 1395px;
+  height: 564px;
+  background: #003BE5;
+  color: #FFFFFF;
+  box-shadow: -4px 9px 13px rgb(3 107 82 / 30%);
+  border-radius: 10px;
+  margin-top: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
