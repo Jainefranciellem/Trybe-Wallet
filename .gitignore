@@ -1,0 +1,15 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+/cypress
+/imgs
+/cypress.config.js
+/trybe-filter-repo.sh
+/reporter.json
+
+# production
+/build
