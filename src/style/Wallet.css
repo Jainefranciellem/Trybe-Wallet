@@ -1,6 +1,6 @@
 .mainWallet {
   display: flex;
-  background: url(http://localhost:3000/static/media/foto%20fundo.2d61b69….png);
+  background: url('../imgs/foto fundo.png');
   background-color: rgb(8, 247, 139);
   background-size: cover;
   width: 100vw;

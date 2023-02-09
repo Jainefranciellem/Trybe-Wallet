@@ -2,6 +2,9 @@ import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import '../style/Header.css';
+import coin from '../imgs/Moedas.svg'
+import profile from '../imgs/Vector.svg'
+import imgLogo from '../imgs/Group 1.png'
 
 class Header extends Component {
   handleTotalField = (expenses) => {
@@ -16,11 +19,19 @@ class Header extends Component {
     const { email, expenses } = this.props;
     return (
       <section className="sectionHeader">
-        <p className="email-field" data-testid="email-field">{ email }</p>
+        <img src={imgLogo} alt="" />
+        <p className="total-field" data-testid="total-field">
+          <img src={ coin } alt="" />
         Total de despesas:
-        <p className="total-field" data-testid="total-field">{ this.handleTotalField(expenses) }
+        {' '}
+        { this.handleTotalField(expenses) }
+        {' '}
         BRL
         </p>
+        <p className="email-field" data-testid="email-field">
+          <img src={ profile } alt="" />
+          { email }
+          </p>
       </section>
     );
   }

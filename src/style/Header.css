@@ -27,7 +27,7 @@
 .total-field {
   display: flex;
   align-items: center;
-  margin-left: 10px;
+  /* margin-left: 10px; */
   font-style: normal;
   font-weight: 700;
   font-size: 14px;

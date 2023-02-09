@@ -8,6 +8,7 @@
 }
 
 .th1 {
+  color: white;
   border-bottom: 1px solid #FFFFFF;
   font-style: normal;
   font-weight: 700;
@@ -23,14 +24,14 @@
   border-bottom: 1px solid #FFFFFF;
   font-style: normal;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 13px;
 }
 
 .td {
   text-align: center;
-	font-weight: 500;
-	font-size: 16px;
+	font-weight: 800;
+	font-size: 17px;
 	padding: 5px;
 	line-height: 13px;
 	color: #2FC18C;
