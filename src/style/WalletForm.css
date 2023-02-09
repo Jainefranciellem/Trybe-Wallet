@@ -27,21 +27,12 @@
   align-items: center;
 }
 
-.inputDescription {
-  position: absolute;
-  width: 288.86px;
-  height: 30px;
-  margin-left: 10px;
-
-  border: 1px solid #003BE5;
-  border-radius: 5px;
-}
 
 .inputDescription {
   width: 288.86px;
   height: 30px;
   margin-left: 10px;
-
+  padding: 10px;
   border: 1px solid #003BE5;
   border-radius: 5px;
 }
@@ -55,6 +46,7 @@
 }
 
 .inputValue {
+  padding: 10px;
   width: 158px;
   height: 30px;
   margin-left: 10px;
@@ -89,8 +81,8 @@
   left: 475px;
   top: 318px;
   color: #FFFFFF;
-  background: #2FC18C;
-  border: 1px solid #2FC18C;
+  background: #18ca89;
+  border: 1px solid #21c98b;
   border-radius: 5px;
   cursor: pointer;
 }
